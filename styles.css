@@ -1,6 +1,5 @@
 html {
     font-family: 'Roboto', sans-serif;
-   
 }
 
 body {
@@ -10,13 +9,17 @@ body {
     margin: auto;
     justify-content: center;
 }
-
 .container1 {
     background-color: #1f2937;
+}
+.container1, .container2, .container3, .container4 {
     display: flex;
     flex-direction: column;
     width: 100%;
     
+}
+.container2, .container3, .container4 {
+    align-items: center;
 }
 
 .footer {
@@ -41,7 +44,7 @@ ul {
     gap: 16px;
 }
 
-a, .subtext {
+a, .subtext, .subtext1 {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -49,36 +52,40 @@ a, .subtext {
 a {
     text-decoration: none;
 }
-
-.box {
+.box, .box1, .box2, .box3, .box4 {
     display: flex;
-    justify-content: space-evenly;
+}
+.box {
+    justify-content: center;
     align-items: center;
     margin: 100px;
     gap: 45px;
 }
 
 .box1 {
-    display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 450px;
     gap: 10px;
+}
+
+.title, .header1 {
+    color: #f9faf8;
+
 }
 
 .header1 {
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8;
     text-align: start;
 }
 
 button {
     text-align: center;
-    width: 100px;
+    width: 125px;
     padding: 4px;
     background-color: #3882f6;
     border-radius: 7px;
-    font-size: 15px;
+    font-size: 18px;
     color: #e5e7eb;
     border: #3882f6 solid;
     font-weight: bolder;
@@ -86,12 +93,102 @@ button {
 
 .image1 {
     background-color: #6D747D;
-    max-width: 300px;
-    max-height: 300px;
     align-items: center;
     justify-content: center;
     display: flex;
-    padding: 85px 135px;
+    padding: 109px 135px;
     color: #e5e7eb;
     text-align: center;
 }
+
+.container2 {
+    margin-bottom: 120px;
+}
+.header2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 40px;
+}
+
+.image2 {
+    border: #3882f6 solid ;
+    border-radius: 12px;
+    max-height: 150px;
+    max-width: 150px;
+    padding: 75px;
+}
+.text{
+    text-align: center;
+    font-size: 16px;
+    color: #1f2937;
+}
+.infobox {
+    width: 155px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.box2 {
+    gap: 45px;
+    flex-flow: row wrap;
+}
+
+.container3 {
+    padding: 100px 0px;
+    background-color: #e5e7eb;
+}
+
+.box3 {
+    flex-direction: column;
+}
+
+.quote {
+    max-width: 812px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 7px;
+}
+.thorsquote {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 21px;
+    margin-right: 7px;
+}
+
+.box4 {
+    gap: 185px;
+    padding: 50px 125px;
+    background-color: #3882f6;
+    border: #3882f6 solid;
+    border-radius: 7px;
+    margin: 140px 0px;
+    align-items: center;
+}
+
+.textbox {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.signup2 {
+    border: #e5e7eb solid 1px;
+    height: 42px;
+}
+
+.title{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1f2937;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
