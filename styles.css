@@ -28,9 +28,10 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: #f9faf8;
+    gap: 405px;
 }
 
 #headerlogo {
@@ -160,7 +161,7 @@ button {
 
 .box4 {
     gap: 185px;
-    padding: 50px 125px;
+    padding: 50px 115px;
     background-color: #3882f6;
     border: #3882f6 solid;
     border-radius: 7px;
